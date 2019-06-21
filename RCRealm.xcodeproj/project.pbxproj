@@ -147,7 +147,7 @@
 		FA81AACD22BCC12C00355769 = {
 			isa = PBXGroup;
 			children = (
-				FA81AAD922BCC12C00355769 /* RCRealm */,
+				FA81AAD922BCC12C00355769 /* Sources */,
 				FA81AAD822BCC12C00355769 /* Products */,
 				FA81AAEA22BCC38100355769 /* Frameworks */,
 			);
@@ -161,7 +161,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA81AAD922BCC12C00355769 /* RCRealm */ = {
+		FA81AAD922BCC12C00355769 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				FA81AAE622BCC22700355769 /* BaseRealmRepository.swift */,
@@ -170,7 +170,7 @@
 				FA81AADB22BCC12C00355769 /* Info.plist */,
 				FA81AAF522BCC45A00355769 /* RealmRepresentable.swift */,
 			);
-			path = RCRealm;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		FA81AAEA22BCC38100355769 /* Frameworks */ = {
@@ -547,7 +547,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = RCRealm/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -579,7 +579,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = RCRealm/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
