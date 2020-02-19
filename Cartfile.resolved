@@ -1,4 +1,4 @@
 github "ReactiveX/RxSwift" "5.0.1"
-github "Swinject/Swinject" "2.6.2"
-github "realm/realm-cocoa" "v3.16.2"
-github "wolvesstudio/RCKit" "0.0.1"
+github "Swinject/Swinject" "2.7.1"
+github "realm/realm-cocoa" "4.3.2"
+github "techpro-studio/RCKit" "0.0.3"
