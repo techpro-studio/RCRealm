@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA76DA0823FDD3B7005208A5 /* BaseRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76DA0423FDD3B7005208A5 /* BaseRealmRepository.swift */; };
-		FA76DA0923FDD3B7005208A5 /* RCRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = FA76DA0523FDD3B7005208A5 /* RCRealm.h */; };
+		FA76DA0923FDD3B7005208A5 /* RCRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = FA76DA0523FDD3B7005208A5 /* RCRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA76DA0A23FDD3B7005208A5 /* RealmRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76DA0623FDD3B7005208A5 /* RealmRepresentable.swift */; };
 		FA76DA0B23FDD3B7005208A5 /* LazyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76DA0723FDD3B7005208A5 /* LazyContainer.swift */; };
 		FA81AAEE22BCC38100355769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81AAEB22BCC38100355769 /* RxSwift.framework */; };
@@ -148,8 +148,8 @@
 		FA76DA0323FDD3B7005208A5 /* RCRealm */ = {
 			isa = PBXGroup;
 			children = (
-				FA76DA0423FDD3B7005208A5 /* BaseRealmRepository.swift */,
 				FA76DA0523FDD3B7005208A5 /* RCRealm.h */,
+				FA76DA0423FDD3B7005208A5 /* BaseRealmRepository.swift */,
 				FA76DA0623FDD3B7005208A5 /* RealmRepresentable.swift */,
 				FA76DA0723FDD3B7005208A5 /* LazyContainer.swift */,
 			);
