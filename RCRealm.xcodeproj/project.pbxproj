@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA81AADC22BCC12C00355769 /* RCRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = FA81AADA22BCC12C00355769 /* RCRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA81AAE822BCC22700355769 /* BaseRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81AAE622BCC22700355769 /* BaseRealmRepository.swift */; };
-		FA81AAE922BCC22700355769 /* LazyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81AAE722BCC22700355769 /* LazyContainer.swift */; };
+		FA76DA0823FDD3B7005208A5 /* BaseRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76DA0423FDD3B7005208A5 /* BaseRealmRepository.swift */; };
+		FA76DA0923FDD3B7005208A5 /* RCRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = FA76DA0523FDD3B7005208A5 /* RCRealm.h */; };
+		FA76DA0A23FDD3B7005208A5 /* RealmRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76DA0623FDD3B7005208A5 /* RealmRepresentable.swift */; };
+		FA76DA0B23FDD3B7005208A5 /* LazyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76DA0723FDD3B7005208A5 /* LazyContainer.swift */; };
 		FA81AAEE22BCC38100355769 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81AAEB22BCC38100355769 /* RxSwift.framework */; };
 		FA81AAEF22BCC38100355769 /* RCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81AAEC22BCC38100355769 /* RCKit.framework */; };
 		FA81AAF022BCC38100355769 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81AAED22BCC38100355769 /* Swinject.framework */; };
-		FA81AAF622BCC45A00355769 /* RealmRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81AAF522BCC45A00355769 /* RealmRepresentable.swift */; };
 		FA81AAFC22BD5B8900355769 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81AAF222BCC43500355769 /* RealmSwift.framework */; };
 		FA81AAFD22BD5B8900355769 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA81AAF122BCC43500355769 /* Realm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA76DA0123FDCEC2005208A5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		FA76DA0423FDD3B7005208A5 /* BaseRealmRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRealmRepository.swift; sourceTree = "<group>"; };
+		FA76DA0523FDD3B7005208A5 /* RCRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRealm.h; sourceTree = "<group>"; };
+		FA76DA0623FDD3B7005208A5 /* RealmRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRepresentable.swift; sourceTree = "<group>"; };
+		FA76DA0723FDD3B7005208A5 /* LazyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyContainer.swift; sourceTree = "<group>"; };
 		FA81AAD722BCC12C00355769 /* RCRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA81AADA22BCC12C00355769 /* RCRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCRealm.h; sourceTree = "<group>"; };
 		FA81AADB22BCC12C00355769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA81AAE622BCC22700355769 /* BaseRealmRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRealmRepository.swift; sourceTree = "<group>"; };
-		FA81AAE722BCC22700355769 /* LazyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyContainer.swift; sourceTree = "<group>"; };
 		FA81AAEB22BCC38100355769 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		FA81AAEC22BCC38100355769 /* RCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCKit.framework; path = Carthage/Build/iOS/RCKit.framework; sourceTree = "<group>"; };
 		FA81AAED22BCC38100355769 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		FA81AAF122BCC43500355769 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		FA81AAF222BCC43500355769 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		FA81AAF522BCC45A00355769 /* RealmRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepresentable.swift; sourceTree = "<group>"; };
 		FA81AAFF22BD5B8900355769 /* .RCKit.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .RCKit.version; sourceTree = "<group>"; };
 		FA81AB0022BD5B8900355769 /* .Swinject.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .Swinject.version; sourceTree = "<group>"; };
 		FA81AB0222BD5B8900355769 /* RealmSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RealmSwift.framework.dSYM; sourceTree = "<group>"; };
@@ -145,6 +145,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA76DA0323FDD3B7005208A5 /* RCRealm */ = {
+			isa = PBXGroup;
+			children = (
+				FA76DA0423FDD3B7005208A5 /* BaseRealmRepository.swift */,
+				FA76DA0523FDD3B7005208A5 /* RCRealm.h */,
+				FA76DA0623FDD3B7005208A5 /* RealmRepresentable.swift */,
+				FA76DA0723FDD3B7005208A5 /* LazyContainer.swift */,
+			);
+			path = RCRealm;
+			sourceTree = "<group>";
+		};
 		FA81AACD22BCC12C00355769 = {
 			isa = PBXGroup;
 			children = (
@@ -166,11 +177,8 @@
 		FA81AAD922BCC12C00355769 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FA81AAE622BCC22700355769 /* BaseRealmRepository.swift */,
-				FA81AAE722BCC22700355769 /* LazyContainer.swift */,
-				FA81AADA22BCC12C00355769 /* RCRealm.h */,
+				FA76DA0323FDD3B7005208A5 /* RCRealm */,
 				FA81AADB22BCC12C00355769 /* Info.plist */,
-				FA81AAF522BCC45A00355769 /* RealmRepresentable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -331,7 +339,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA81AADC22BCC12C00355769 /* RCRealm.h in Headers */,
+				FA76DA0923FDD3B7005208A5 /* RCRealm.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +385,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FA81AACD22BCC12C00355769;
 			productRefGroup = FA81AAD822BCC12C00355769 /* Products */;
@@ -403,9 +412,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA81AAF622BCC45A00355769 /* RealmRepresentable.swift in Sources */,
-				FA81AAE822BCC22700355769 /* BaseRealmRepository.swift in Sources */,
-				FA81AAE922BCC22700355769 /* LazyContainer.swift in Sources */,
+				FA76DA0A23FDD3B7005208A5 /* RealmRepresentable.swift in Sources */,
+				FA76DA0823FDD3B7005208A5 /* BaseRealmRepository.swift in Sources */,
+				FA76DA0B23FDD3B7005208A5 /* LazyContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

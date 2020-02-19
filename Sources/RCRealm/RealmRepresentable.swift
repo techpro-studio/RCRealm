@@ -3,7 +3,7 @@
 //  RCRealm
 //
 //  Created by Alex on 6/21/19.
-//  Copyright © 2019 wolvesstudio. All rights reserved.
+//  Copyright © 2019 techprostudio. All rights reserved.
 //
 
 import Foundation
