@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import RCKit
 
-public protocol RealmRepresentable {
+public protocol RealmRepresentable: Identifiable {
     associatedtype RealmType: DomainConvertibleType&Object
     func asRealm() -> RealmType
 }

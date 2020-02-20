@@ -62,7 +62,7 @@ open class BaseRealmRepository<T:RealmRepresentable>: BaseAbstractRepository whe
         
     }
     
-    open func remove(id:String){
+    open func remove(id:T.Identifier){
         self.scheduler.performSync {
             try! self.realm.write{
                 if let value = self.realm.object(ofType: T.RealmType.self, forPrimaryKey: id){
@@ -90,7 +90,7 @@ open class BaseRealmRepository<T:RealmRepresentable>: BaseAbstractRepository whe
     }
     
     
-    open func getById(id: String) -> T? {
+    open func getById(id: T.Identifier) -> T? {
         return self.scheduler.performSync {
             return self.realm.object(ofType: T.RealmType.self, forPrimaryKey: id)?.asDomain()
         }
@@ -98,7 +98,7 @@ open class BaseRealmRepository<T:RealmRepresentable>: BaseAbstractRepository whe
     
     
     
-    open func subscribeForDeletion(id:String)->Observable<Void>{
+    open func subscribeForDeletion(id:T.Identifier)->Observable<Void>{
         return Observable.create{[weak self] observer in
             guard let self = self else {
                 observer.onCompleted()

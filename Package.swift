@@ -15,7 +15,7 @@ let package = Package(
             targets: ["RCRealm"]),
     ],
     dependencies:[
-        .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.3"),
+        .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.4"),
         .package(url: "https://github.com/realm/realm-cocoa", from: "4.3.2"),
 
     ],
