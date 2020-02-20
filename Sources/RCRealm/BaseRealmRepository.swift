@@ -61,6 +61,12 @@ open class BaseRealmRepository<T:RealmRepresentable>: BaseAbstractRepository whe
         }
         
     }
+
+    public func find(predicate: NSPredicate) -> [T] {
+        return self.scheduler.performSync {
+            return self.realm.objects(T.RealmType.self).filter(predicate).map { $0.asDomain() }
+        }
+    }
     
     open func remove(id:T.Identifier){
         self.scheduler.performSync {
