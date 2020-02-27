@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 import RxSwift
-import RCKit
+import ThreadScheduler
 
 public struct ChangeSet{
     let modified: [Int]

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RCKit
+import ThreadScheduler
 import RealmSwift
 import RxSwift
 import AbstractPersistence

@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies:[
         .package(url: "https://github.com/techpro-studio/AbstractPersistence", from:"0.0.1"),
-        .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.7"),
+        .package(url: "https://github.com/techpro-studio/ThreadScheduler", from: "0.0.2"),
         .package(url: "https://github.com/realm/realm-cocoa", from: "4.3.2"),
 
     ],
@@ -25,6 +25,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "RCRealm",
-            dependencies: ["RealmSwift", "RCKit", "AbstractPersistence"]),
+            dependencies: ["RealmSwift", "ThreadScheduler", "AbstractPersistence"]),
     ]
 )
