@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies:[
         .package(url: "https://github.com/techpro-studio/AbstractPersistence", from:"0.0.1"),
-        .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.5"),
+        .package(url: "https://github.com/techpro-studio/RCKit", from: "0.0.7"),
         .package(url: "https://github.com/realm/realm-cocoa", from: "4.3.2"),
 
     ],
