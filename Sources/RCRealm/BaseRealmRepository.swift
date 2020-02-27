@@ -10,9 +10,10 @@ import Foundation
 import RCKit
 import RealmSwift
 import RxSwift
+import AbstractPersistence
 
 
-open class BaseRealmRepository<T:RealmRepresentable>: BaseAbstractRepository where T.RealmType.DomainType == T {
+open class BaseRealmRepository<T:RealmRepresentable>: AbstractRepository where T.RealmType.DomainType == T {
     
     private let configuration: Realm.Configuration
     private let scheduler: Scheduler

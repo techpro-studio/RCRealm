@@ -8,7 +8,7 @@
 
 import Foundation
 import RealmSwift
-import RCKit
+import AbstractPersistence
 
 public protocol RealmRepresentable: Identifiable {
     associatedtype RealmType: DomainConvertibleType&Object

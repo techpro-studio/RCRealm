@@ -1,2 +1,3 @@
 github "techpro-studio/RCKit"
 github "realm/realm-cocoa"
+github "techpro-studio/AbstractPersistence"
